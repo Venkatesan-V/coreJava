@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="crmsfa"/>
+  <parameter name="browser" value="edge"/>
+  <parameter name="url" value="http://leaftaps.com/opentaps/"/>
+  <parameter name="username" value="DemoCSR"/>
+  <test thread-count="5" parallel="tests" name="regTest(failed)">
+    <classes>
+      <class name="p03052024.C03Lead">
+        <methods>
+          <include name="postCond"/>
+          <include name="preCond"/>
+          <include name="cLead"/>
+        </methods>
+      </class> <!-- p03052024.C03Lead -->
+    </classes>
+  </test> <!-- regTest(failed) -->
+  <test thread-count="5" parallel="tests" name="smokeTest(failed)">
+    <classes>
+      <class name="p03052024.E03Lead">
+        <methods>
+          <include name="postCond"/>
+          <include name="preCond"/>
+          <include name="edtLead"/>
+        </methods>
+      </class> <!-- p03052024.E03Lead -->
+    </classes>
+  </test> <!-- smokeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
