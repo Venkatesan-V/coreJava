@@ -27,5 +27,7 @@ public class StringBufferEx {
 		System.out.println(directorInsert.insert(0, "Quentin"));
 		
 		System.out.println(directorInsert.capacity());
+		
+		
 	}
 }
