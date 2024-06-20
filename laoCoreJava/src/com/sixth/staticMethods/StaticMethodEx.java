@@ -1,4 +1,4 @@
-package com.lao.staticMethods;
+package com.sixth.staticMethods;
 
 public class StaticMethodEx {
 

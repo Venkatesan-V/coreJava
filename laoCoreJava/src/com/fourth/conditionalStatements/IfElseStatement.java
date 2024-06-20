@@ -1,4 +1,4 @@
-package com.lao.conditionalStatements;
+package com.fourth.conditionalStatements;
 
 public class IfElseStatement {
 
@@ -7,6 +7,7 @@ public class IfElseStatement {
 	public static void main(String[] args) {
 		
 		IfElseStatement coffee= new IfElseStatement();
+		
 		if(coffee.isCupEmpty) {
 			System.out.println("Fill the coffee");
 		} else {

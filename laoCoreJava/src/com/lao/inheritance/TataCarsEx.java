@@ -2,6 +2,7 @@ package com.lao.inheritance;
 
 public class TataCarsEx extends CarEx {
 
+	
 	public static void main(String[] args) {
 		
 		TataCarsEx tata= new TataCarsEx();

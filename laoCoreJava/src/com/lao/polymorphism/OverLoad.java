@@ -6,10 +6,12 @@ public class OverLoad {
 		System.out.println("method 1 executed");
 		return a+b;
 	}
+	
 	public int method1 (int a, int b, int c) {
 		System.out.println("method 2 executed");
 		return a*b*c;
 	}
+	
 	public static void main(String[] args) {
 		
 		OverLoad overloading= new OverLoad();

@@ -1,4 +1,4 @@
-package com.lao.staticMethods;
+package com.sixth.staticMethods;
 
 public class StaticVariablesEx {
 
@@ -15,10 +15,10 @@ public class StaticVariablesEx {
 		personOne.accountBal=2000;
 		personOne.depositedBy="Dhoni";
 		
-		System.out.println("first Person " +person.accountBal);
-		System.out.println("first Person " +person.depositedBy);
-		System.out.println("second Person " +personOne.accountBal);
-		System.out.println("second Person " +personOne.depositedBy);
+		System.out.println("first Person accountBal " +person.accountBal);
+		System.out.println("first Person depositedBy " +person.depositedBy);
+		System.out.println("second Person accountBal " +personOne.accountBal);
+		System.out.println("second Person depositedBy " +personOne.depositedBy);
 		
 //		accountBal of last person will be executed due to static keyword
 	}

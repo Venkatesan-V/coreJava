@@ -1,4 +1,4 @@
-package com.lao.javaConstructors;
+package com.third.javaConstructors;
 
 public class EmployeeNoArgumentConst {
 
@@ -8,7 +8,7 @@ public class EmployeeNoArgumentConst {
 	public EmployeeNoArgumentConst () {
 		empName = "Arjun";
 		empID = 26611;
-		System.out.println("Employee object created");
+		System.out.println("Constructor is called first");
 	}
 	public static void main(String[] args) {
 		

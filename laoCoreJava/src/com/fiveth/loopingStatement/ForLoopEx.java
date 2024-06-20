@@ -1,4 +1,4 @@
-package com.lao.loopingStatement;
+package com.fiveth.loopingStatement;
 
 public class ForLoopEx {
 

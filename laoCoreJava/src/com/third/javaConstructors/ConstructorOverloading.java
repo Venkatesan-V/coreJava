@@ -1,12 +1,13 @@
-package com.lao.javaConstructors;
+package com.third.javaConstructors;
 
 public class ConstructorOverloading {
 	
 	String draw;
-
+	
 	public ConstructorOverloading () {
 		System.out.println("object created");
 	}
+	
 	
 	public ConstructorOverloading (String todraw) {
 		draw= todraw;
@@ -18,8 +19,6 @@ public class ConstructorOverloading {
 		ConstructorOverloading constOverLoad= new ConstructorOverloading();
 			
 		ConstructorOverloading drawing= new ConstructorOverloading("rectangle");
-		
-		
 		
 	}
 	

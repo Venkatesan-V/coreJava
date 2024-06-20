@@ -1,4 +1,4 @@
-package com.lao.javaConstructors;
+package com.third.javaConstructors;
 
 public class AnimalParameterizedConst {
 
@@ -9,6 +9,7 @@ public class AnimalParameterizedConst {
 		animal_name=name;
 		animal_type=type;
 		System.out.println("Animal name is "+ name +" and its type is " +type);
+		System.out.println("contructor calls");
 	}
 	
 	public static void main(String[] args) {

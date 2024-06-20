@@ -1,4 +1,4 @@
-package com.lao.javaObjectCreation;
+package com.first.javaObjectCreation;
 
 public class BankAccount {
 

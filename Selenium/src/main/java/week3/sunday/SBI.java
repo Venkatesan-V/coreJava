@@ -34,6 +34,7 @@ public class SBI extends Apartment implements RBI, BankRules {
 		bank.Signature();
 		bank.moneyTransfer();
 		bank.rateofInterest();
+		bank.noOfFloors();
 		bank.underConstruction();
 	}
 

@@ -1,4 +1,4 @@
-package com.lao.javaReturnType;
+package com.second.javaReturnType;
 
 public class CollectAmount {
 

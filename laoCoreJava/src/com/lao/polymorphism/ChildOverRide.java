@@ -15,5 +15,10 @@ public class ChildOverRide extends OverRiding {
 		OverRiding ride=new ChildOverRide();
 		ride.college();
 		ride.place();
+		
+		OverRiding newride=new OverRiding(); //parentClass
+		newride.college();
+		newride.place();
+		
 	}
 }

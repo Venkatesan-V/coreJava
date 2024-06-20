@@ -1,4 +1,4 @@
-package com.lao.javaConstructors;
+package com.third.javaConstructors;
 
 public class ParentClass {
 
