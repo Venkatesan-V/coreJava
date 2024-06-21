@@ -1,14 +1,13 @@
-package com.lao.abstraction;
+package com.nineth.abstraction;
 
-public class Benz extends CarClass {
-	
+public class Bmw extends CarClass {
+
 	public void companyVault () {
-		System.out.println("Benz company vault");
+		System.out.println("Bmw company vault");
 	}
-	
 	@Override
 	public void engineSecret() {
-		System.out.println("Benz engine spec");
+		System.out.println("Bmw engine spec");
 		
 	}
 	public static void main(String[] args) {
@@ -19,4 +18,6 @@ public class Benz extends CarClass {
 		
 		
 	}
+
+	
 }

@@ -1,4 +1,4 @@
-package com.lao.abstraction;
+package com.nineth.abstraction;
 
 public class Employee implements Iemployees {
 //	remove abstract to use the below method

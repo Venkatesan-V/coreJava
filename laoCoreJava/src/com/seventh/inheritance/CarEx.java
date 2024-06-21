@@ -1,4 +1,4 @@
-package com.lao.inheritance;
+package com.seventh.inheritance;
 
 public class CarEx {
 

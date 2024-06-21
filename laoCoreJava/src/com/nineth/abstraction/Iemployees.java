@@ -1,4 +1,4 @@
-package com.lao.abstraction;
+package com.nineth.abstraction;
 
 public interface Iemployees extends Imanagers, Isupervisors {
 
