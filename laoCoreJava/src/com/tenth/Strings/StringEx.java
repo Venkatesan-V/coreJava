@@ -1,4 +1,4 @@
-package com.lao.Strings;
+package com.tenth.Strings;
 
 public class StringEx {
 

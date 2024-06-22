@@ -1,4 +1,4 @@
-package com.lao.ExceptionHandling;
+package com.eleventh.ExceptionHandling;
 
 public class TryCatchBlock {
 
