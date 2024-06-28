@@ -18,7 +18,7 @@ public class Dummy {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
-		driver.get("https://www.youtube.com/playlist?list=PLLS0D9-W-1dnFbSyuXD-u_76fKwbGOEHt");
+		driver.get("https://www.youtube.com/playlist?list=PLLS0D9-W-1dmpG55eD3g7XHOGHWoNUkyz");
 		Toolkit.getDefaultToolkit().getSystemClipboard();
 
 		Actions act= new Actions(driver);
