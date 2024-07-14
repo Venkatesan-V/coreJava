@@ -15,8 +15,6 @@ public class BankAccount {
 		BankAccount account = new BankAccount();
 		account.getBal();
 		System.out.println(account.accountHolder);
-		
-		
-		
+				
 	}
 }
