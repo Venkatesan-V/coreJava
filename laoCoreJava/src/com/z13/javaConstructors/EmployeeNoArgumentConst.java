@@ -13,6 +13,7 @@ public class EmployeeNoArgumentConst {
 	public static void main(String[] args) {
 		
 		EmployeeNoArgumentConst empdetails = new EmployeeNoArgumentConst();
+		
 		System.out.println(empdetails.empName);
 		System.out.println(empdetails.empID);
 		

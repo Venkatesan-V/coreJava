@@ -1,4 +1,4 @@
-package com.z14fourth.conditionalStatements;
+package com.z14.conditionalStatements;
 
 public class SwitchCaseEx {
 
