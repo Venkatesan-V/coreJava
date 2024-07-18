@@ -30,11 +30,6 @@ public class LearnListWithSelenium {
 			String text = sshoe.getText();     //getText allows to print webElements(productname), otherwise alphanumeric value
 			System.out.println(text);
 		}
-		
-	
-
-	
-	
 	
 	}
 }

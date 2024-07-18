@@ -8,7 +8,7 @@ public class Factorial {
 	
 		int op=1;
 		
-		for(int i=1; i<=5;i++) {
+		for(int i=1; i<=10;i++) {
 			System.out.println(i);
 			op=op*i;
 		}
