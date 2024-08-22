@@ -1,6 +1,6 @@
 package z13defaultMethodsExample;
 
-//@FunctionalInterface removed but doesn't affect other classes
+@FunctionalInterface //removed but doesn't affect other classes
 public interface Browser {
 
 	void browse();
