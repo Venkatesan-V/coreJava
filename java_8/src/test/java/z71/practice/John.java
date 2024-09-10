@@ -3,16 +3,12 @@ package z71.practice;
 public class John implements Fruits {
 
 	@Override
-	public String convertUpper(String name) {
+	public int apple(int num1, int num2) {
+		return num1+num2;
 		
-		return name.toUpperCase();
 	}
 
-	@Override
-	public String convertLower(String name) {
-		
-		return name.toLowerCase();
-	}
+	
 
 	
 	
