@@ -10,14 +10,14 @@ public class MercedesBenz implements CarFormula {
 	public static void main(String[] args) {
 		
 		MercedesBenz benz= new MercedesBenz();
-		CarFormula benz1= new MercedesBenz();
+		CarFormula benzCar= new MercedesBenz();
 		
 //		benz.start(); // this method is not callable since it is static
-//		benz1.start(); // this method is not callable since it is static
+//		benzCar.start(); // this method is not callable since it is static
 //		CarFormula.start(); // only possible way.
-//		MercedesBenz.start(); // this method is not callable since it is static
+		MercedesBenz.start(); // this method is not callable since it is static
 		
 //		
-		MercedesBenz.start(); // this 'start' comes from MercedesBenz and not from CarFormula
+//		MercedesBenz.start(); // this 'start' comes from MercedesBenz and not from CarFormula
 	}
 }
