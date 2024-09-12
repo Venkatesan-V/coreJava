@@ -1,10 +1,8 @@
 package z71.practice;
 
-public class John implements Fruits {
+public class John {
 
-	@Override
-	public int apple(int num1, int num2) {
-		return num1+num2;
+	
 		
 	}
 
@@ -14,4 +12,4 @@ public class John implements Fruits {
 	
 		
 	
-}
+

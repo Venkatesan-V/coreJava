@@ -16,12 +16,12 @@ public class AndThenCompose {
 			return "";
 		};
 		
-//		tenth.apply("study");
-//		eleventh.apply("");
+		tenth.apply("study");
+		eleventh.apply("");
 		
-		tenth.andThen(eleventh).apply("study");
+//		tenth.andThen(eleventh).apply("study");
 		System.out.println("***********************************");
-		tenth.compose(eleventh).apply("");
+//		tenth.compose(eleventh).apply("");
 
 	}
 	
